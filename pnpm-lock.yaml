@@ -31,7 +31,7 @@ importers:
         specifier: ^19
         version: 19.0.2(@types/react@19.0.2)
       postcss:
-        specifier: ^8
+        specifier: ^8.4.49
         version: 8.4.49
       tailwindcss:
         specifier: ^3.4.1
