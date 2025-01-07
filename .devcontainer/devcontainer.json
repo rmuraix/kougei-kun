@@ -1,19 +1,19 @@
 {
-    "name": "kougei-kun-dev",
-    "build": {
-        "dockerfile": "./Dockerfile"
-    },
-    "features": {
-      "ghcr.io/devcontainers/features/common-utils:2": {
-        "upgradePackages": false,
-        "username": "node",
-        "userUid": "automatic",
-        "userGid": "automatic"
-      }
-    },
-    "containerEnv": {
-      "TZ": "Asia/Tokyo"
-    },
-    "postStartCommand": "pnpm i",
-    "remoteUser": "node"
-  }
+	"name": "kougei-kun-dev",
+	"build": {
+		"dockerfile": "./Dockerfile"
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/common-utils:2": {
+			"upgradePackages": false,
+			"username": "node",
+			"userUid": "automatic",
+			"userGid": "automatic"
+		}
+	},
+	"containerEnv": {
+		"TZ": "Asia/Tokyo"
+	},
+	"postStartCommand": "pnpm i",
+	"remoteUser": "node"
+}
